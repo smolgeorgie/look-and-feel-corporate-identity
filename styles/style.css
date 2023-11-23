@@ -1,0 +1,55 @@
+:root {
+    --nav-sizing: 30px;
+    --bg: #272932;
+    --text: #ecf8f8;
+    --primary: #947eb0;
+    --secondary: #519879;
+    --accent: #fb8b24;
+    --btn-radius: 2.5em;
+    /* button border-radius */
+    --sec-radius: .25em;
+    /* sections and articles radius */
+    --cap: capitalize;
+    --fat: 800;
+    /* font-weight */
+    --chubby: 600;
+    /* font-weight */
+
+}
+
+body {
+    background-color: #272932;
+    color: var(--text);
+}
+
+/* navigation bar left */
+ul li img {
+    height: var(--nav-sizing);
+    width: var(--nav-sizing);
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    margin-left: .7em;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+/* not sure if this is the best way to do this */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: var(--fat);
+}
