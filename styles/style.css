@@ -18,8 +18,20 @@
 }
 
 body {
+    display: grid;
     background-color: #272932;
     color: var(--text);
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area:
+        ". title img"
+        "nav p img"
+        ". p img"; */
+}
+
+nav {
+    grid-area: nav;
+    margin: left;
 }
 
 /* navigation bar left */
@@ -43,8 +55,22 @@ nav li {
     align-items: center;
 }
 
+h1 {
+    grid-area: title;
+}
+
+p {
+    grid-area: text;
+}
+
+main img {
+    grid-area: img;
+    height: 50px;
+    width: 50px;
+}
+
 /* not sure if this is the best way to do this */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -52,4 +78,4 @@ h5,
 h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: var(--fat);
-}
+} */
