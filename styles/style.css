@@ -18,23 +18,24 @@
 }
 
 body {
+    height: 100vh;
     display: grid;
     background-color: #272932;
     color: var(--text);
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 6fr;
     grid-area:
-        ". title img"
-        "nav p img"
-        ". p img"; */
+        "nav main";
+    grid-gap: 10px;
 }
-
+/* NAVIGATION BAR LEFT */
 nav {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     grid-area: nav;
-    margin: left;
 }
 
-/* navigation bar left */
 ul li img {
     height: var(--nav-sizing);
     width: var(--nav-sizing);
@@ -63,10 +64,15 @@ p {
     grid-area: text;
 }
 
+
+main {
+    grid-area: main;
+}
+
 main img {
-    grid-area: img;
-    height: 50px;
-    width: 50px;
+    height: 300px;
+    width: 300px;
+    float: right;
 }
 
 /* not sure if this is the best way to do this */
