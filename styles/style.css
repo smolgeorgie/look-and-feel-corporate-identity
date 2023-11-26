@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Halton-regular;
+    src: url(assets/Halton-regular) format("opentype");
+}
+
+@font-face {
+    font-family: Halton-italic;
+    src: url(assets/Halton-italic) format("opentype");
+}
+
+@font-face {
+    font-family: Halton-bold;
+    src: url(assets/Halton-bold) format("opentype");
+}
+
 :root {
     --nav-sizing: 30px;
     --bg: #272932;
@@ -27,7 +42,8 @@ body {
         "nav main";
     grid-gap: 10px;
 }
-/* NAVIGATION BAR LEFT */
+
+/* #region NAVIGATION BAR LEFT */
 nav {
     padding: 1em;
     display: flex;
@@ -48,6 +64,7 @@ ul {
 nav a {
     text-decoration: none;
     color: inherit;
+    font-family: 'Halton-regular', serif;
     margin-left: .7em;
 }
 
@@ -55,6 +72,8 @@ nav li {
     display: flex;
     align-items: center;
 }
+
+/* #endregion */
 
 h1 {
     grid-area: title;
