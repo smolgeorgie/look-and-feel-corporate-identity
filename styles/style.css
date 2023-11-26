@@ -114,6 +114,11 @@ button {
     margin-top: 13rem;
 }
 
+.image-homepage {
+    width: 250px;
+    height: 250px;
+}
+
 /* not sure if this is the best way to do this */
 /* h1,
 h2,
