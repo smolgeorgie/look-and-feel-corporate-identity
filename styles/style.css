@@ -50,6 +50,7 @@ nav {
     text-align: center;
     flex-direction: column;
     justify-content: center;
+    gap: 1em;
     grid-area: nav;
 }
 
