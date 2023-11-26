@@ -84,13 +84,13 @@ main {
 }
 
 h1 {
-    max-width: 25ch;
+    max-width: 20ch;
     font-family: halton-bold, serif;
     font-size: 50px;
     font-style: normal;
     font-weight: var(fat);
     line-height: 1.2;
-    margin-bottom: 1,5rem;
+    margin-bottom: 1, 5rem;
 }
 
 p {
@@ -116,10 +116,11 @@ button {
 
 
 /* #region IMAGE */
-img {
+
+/* img {
 overflow-clip-margin: content-box;
 overflow: clip;
-}
+} */
 
 .img-home {
     width: 16em;
@@ -131,6 +132,7 @@ overflow: clip;
     flex-grow: 1;
     display: inline-block;
 }
+
 /* #endregion */
 
 /* not sure if this is the best way to do this */
