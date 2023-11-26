@@ -76,6 +76,7 @@ nav li {
 
 /* #endregion */
 
+/* #region MAIN CONTENT */
 main {
     padding: 15px;
     display: flex;
@@ -111,13 +112,6 @@ a.button {
     margin-top: 8rem;
 }
 
-/* #region IMAGE */
-
-/* img {
-overflow-clip-margin: content-box;
-overflow: clip;
-} */
-
 .img-home {
     width: 20em;
     height: 20em;
@@ -133,7 +127,7 @@ overflow: clip;
 
 /* #endregion */
 
-/* not sure if this is the best way to do this */
+/* in construction */
 /* h1,
 h2,
 h3,
