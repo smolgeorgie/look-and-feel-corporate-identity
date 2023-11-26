@@ -90,7 +90,7 @@ h1 {
     font-style: normal;
     font-weight: var(fat);
     line-height: 1.2;
-    margin-bottom: 1, 5rem;
+    margin-bottom: 1,5rem;
 }
 
 p {
@@ -114,10 +114,24 @@ button {
     margin-top: 13rem;
 }
 
-.image-homepage {
-    width: 250px;
-    height: 250px;
+
+/* #region IMAGE */
+img {
+overflow-clip-margin: content-box;
+overflow: clip;
 }
+
+.img-home {
+    width: 16em;
+    height: 16em;
+    float: right;
+}
+
+.homepage {
+    flex-grow: 1;
+    display: inline-block;
+}
+/* #endregion */
 
 /* not sure if this is the best way to do this */
 /* h1,
