@@ -124,7 +124,7 @@
 
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1080px) {
     .img-home {
         width: 15em;
         height: 15em;
@@ -135,7 +135,7 @@
 }
 
 /* LARGER SCREENS */
-@media (min-width: 768px) {
+@media (min-width: 1080px) {
     body {
         display: grid;
         grid-template-columns: 2fr 6fr;
@@ -147,6 +147,7 @@
         padding: 1em;
         display: flex;
         margin-top: 50%;
+        justify-content: center;
 
         & a {
             text-decoration: none;
