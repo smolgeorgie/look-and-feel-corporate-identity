@@ -124,6 +124,16 @@
 
 }
 
+@media (min-width: 600px) and (max-width: 1000px) {
+    .img-home {
+        width: 15em;
+        height: 15em;
+        float: right;
+        margin-right: 12em;
+    }
+
+}
+
 /* LARGER SCREENS */
 @media (min-width: 768px) {
     body {
