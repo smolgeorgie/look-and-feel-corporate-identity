@@ -102,8 +102,8 @@
         padding: 16px 125px 16px 127px;
         border-radius: 30px;
         background: var(--primary);
-        font-family: Genos;
-        font-size: 20px;
+        font-family: halton-regular, serif;
+        font-size: 16px;
         color: white;
         text-decoration: none;
         text-align: center;
@@ -114,7 +114,6 @@
     a.button:hover {
         background: var(--primary);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
     }
 
     .img-home {
@@ -208,9 +207,9 @@
         display: inline-block;
         padding: 16px 125px 16px 127px;
         border-radius: 30px;
-        background: linear-gradient(88deg, #2E8B57 5.15%, rgba(68, 164, 110, 0.22) 93.78%);
-        font-family: Genos;
-        font-size: 20px;
+        background: #AD97C9;
+        font-family: halton-regular, serif;
+        font-size: 16px;
         color: white;
         text-decoration: none;
         text-align: center;
