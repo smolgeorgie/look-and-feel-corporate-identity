@@ -101,7 +101,7 @@
         display: inline-block;
         padding: 16px 125px 16px 127px;
         border-radius: 30px;
-        background: linear-gradient(88deg, #2E8B57 5.15%, rgba(68, 164, 110, 0.22) 93.78%);
+        background: var(--primary);
         font-family: Genos;
         font-size: 20px;
         color: white;
@@ -109,6 +109,12 @@
         text-align: center;
         cursor: pointer;
         margin-top: 8rem;
+    }
+
+    a.button:hover {
+        background: var(--primary);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
     }
 
     .img-home {
