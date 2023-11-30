@@ -95,7 +95,7 @@ h2 {
     }
 }
 
-article {
+#card {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -114,8 +114,9 @@ article {
     gap: 3em;
 
     & img {
-        width: 50px;
-        height: 50px;
+        width: 150px;
+        height: 150px;
+        margin-top: 1em;
     }
 }
 
@@ -128,10 +129,59 @@ h3 {
     padding: 0;
 }
 
+.item-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+
+    & p {
+        display: flex;
+        font-family: "Halton-regular", serif;
+        font-size: .4em;
+        height: 3em;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-weight: var(--chubby);
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.item__1 {
+    height: 1.2em;
+    width: 6em;
+    background-color: var(--secondarycolor);
+    border-radius: 20px;
+}
+
+.item__2 {
+    height: 1.2em;
+    width: 3em;
+    background-color: var(--secondarycolor);
+    border-radius: 20px;
+}
+
+.item__3 {
+    height: 1.2em;
+    width: 3em;
+    background-color: var(--secondarycolor);
+    border-radius: 20px;
+}
+
+.item__4 {
+    height: 1.2em;
+    width: 5em;
+    background-color: var(--secondarycolor);
+    border-radius: 20px;
+}
+
 button {
     background-color: var(--primarycolor);
     color: black;
-    font-family: "Halton-regular, serif";
+    font-family: "Halton-italic, serif";
+    font-weight: var(--thin);
     border-radius: var(--btn-radius);
     cursor: pointer;
     text-decoration: none;
